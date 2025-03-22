@@ -6,7 +6,7 @@ terraform {
   backend "s3" {
     bucket = "asherr-jenkins"
     key    = "ashersource.tfstate"
-    region = "us-west-1"
+    region = "us-east-1"
   }
 }
 
