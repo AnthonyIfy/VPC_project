@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Infrastructure Deployment') {
            environment {
-             AWS_ACCESS_KEY_ID = credentials('aws.access.key_Id')
+             AWS_ACCESS_KEY_ID = credentials('aws.access.key_id')
              AWS_SECRET_ACCESS_KEY = credentials('Secret_access_key')
            }
            steps {
